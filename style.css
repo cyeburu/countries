@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: rgb(192, 192, 192);
+  width: 100%;
+}
+#countryDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.image {
+  width: 15em;
+  height: 10em;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.flagInfo {
+  width: 15em;
+  height: 22em;
+  background-color: white;
+  margin: 2em;
+  border-radius: 5px;
+}
+.info {
+  margin-left: 2em;
+  font-size: small;
+}
+h1 {
+  font-size: medium;
+}
